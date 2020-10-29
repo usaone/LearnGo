@@ -8,8 +8,6 @@ import (
 // will populate the func main bare structure.
 func main() {
 	fmt.Println(">>>>>+++++++ begin main +++++++<<<<<")
-	primitives()
 
-	collections()
 	fmt.Println(">>>>>++++++++ end main ++++++++<<<<<")
 }
