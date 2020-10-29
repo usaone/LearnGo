@@ -81,8 +81,31 @@ func maps() {
 // end maps
 
 // begin structs
+type administrator struct {
+	ID        int
+	FirstName string
+	LastName  string
+}
+
 func structs() {
 	fmt.Println(">>>>> Begin structs <<<<<")
+	type user struct {
+		ID        int
+		FirstName string
+		LastName  string
+	}
+	var u user
+	u.ID = 1
+	u.FirstName = "Arthur"
+	u.LastName = "Dent"
+	fmt.Println(u)
+
+	u2 := administrator{
+		ID:        1,
+		FirstName: "Art",
+		LastName:  "Mathew",
+	}
+	fmt.Println(u2)
 }
 
 // end structs
