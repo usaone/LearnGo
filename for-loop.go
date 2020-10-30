@@ -21,4 +21,13 @@ func forTest() {
 	for j := 0; j < 3; j++ {
 		println(j)
 	}
+
+	// Setting up infinite loop
+	for {
+		if i == 5 {
+			break
+		}
+		println(i)
+		i++
+	}
 }
