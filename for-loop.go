@@ -13,4 +13,12 @@ func forTest() {
 		}
 		println("continuing...")
 	}
+
+	for ; i < 5; i++ {
+		println(i)
+	}
+
+	for j := 0; j < 3; j++ {
+		println(j)
+	}
 }
